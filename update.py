@@ -36,12 +36,12 @@ try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except:
-    UPSTREAM_REPO = None
+    UPSTREAM_REPO = 'https://github.com/mukto222/reflct-mirror'
 try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
 except:
-    UPSTREAM_BRANCH = 'master'
+    UPSTREAM_BRANCH = 'main'
 
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
