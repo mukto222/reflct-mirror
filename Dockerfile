@@ -1,4 +1,4 @@
-FROM dipeshpatil123/dipeshmirror:latest
+FROM 412314/z-mirror:heroku
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
