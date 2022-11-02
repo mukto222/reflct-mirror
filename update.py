@@ -41,7 +41,7 @@ try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
 except:
-    UPSTREAM_BRANCH = 'main'
+    UPSTREAM_BRANCH = 'h-code'
 
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
