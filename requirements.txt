@@ -1,8 +1,11 @@
 aiohttp
 anytree
+appdirs
 aria2p
 asgiref
 asyncio
+attrdict
+mediainfo
 beautifulsoup4
 bencode.py
 bencoding
@@ -36,6 +39,5 @@ telegraph
 tenacity
 tgCrypto
 urllib3
-xattr
 yt-dlp
 waybackpy
